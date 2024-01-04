@@ -1,0 +1,39 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*~
+
+# Ignore Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignore environment variables
+.env
+
+# Ignore Docker build artifacts
+Dockerfile
+*.dockerignore
+
+# Ignore test coverage reports
+test_suite/test_coverage_report.py
+
+# Ignore deployment scripts
+deployment_scripts.py
+
+# Ignore Github workflow configurations
+.github/workflows/
+
+# Ignore build instructions
+build_instructions.md
+
+# Ignore build status
+build_status.md
+
+# Ignore all markdown files
+*.md
+
+# Ignore all license files
+LICENSE
